@@ -41,7 +41,7 @@ class ArticlesController < ApplicationController
     def destroy
         
         @article.destroy
-        redirect_to article_path
+        redirect_to articles_path
     end
     
     def article_params
